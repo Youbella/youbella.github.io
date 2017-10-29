@@ -356,3 +356,21 @@ a:focus {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
 }
+
+table {
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    border-radius: 4px;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

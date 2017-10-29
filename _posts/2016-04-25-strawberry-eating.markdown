@@ -1,8 +1,8 @@
 ---
 title:  "去草莓园吃到饱"
 subtitle: "第一次去熊小子"
-author: "herry"
-avatar: "img/authors/wferr.png"
+author: "tenten"
+avatar: "img/authors/bear.jpeg"
 image: "img/b.jpg"
 date:   2016-04-25 17:41:12
 ---
