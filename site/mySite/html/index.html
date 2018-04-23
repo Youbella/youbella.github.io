@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Simple Web Page</title>
+	</head>
+
+	<body>
+		<div id="bamboo">
+			<div id="bamboo_bg"></div>
+
+			<div id="banner">
+				<a href="https://www.google.com">About</a>
+				<a href="https://www.google.com">Contact</a>
+			</div>
+
+			<audio controls loop>
+				<source src="../mp3/ukulele.mp3" type="audio/mpeg">
+			</audio>
+
+
+			<h1>Healthy Diet</h1>
+
+
+			<div id="content">
+				<p>Do you like healthy food or <br>do you like junk food?</p>
+
+				<p>I like chips and cookies...and I like salty fries!</p>
+
+				<p>But healthy food makes you strong!</p>
+
+				<p>Junk food makes you weak!<br>Junk food makes you big and fat!</p>
+
+				<p style="font-weight: bold;">Feed what you ate to the chick<br> and see the result!</p>
+			</div>
+		</div>
+
+
+
+
+		<div class="row">
+			<a id="apple" class="column" href="healthyFood.html" target="_blank">
+					<h2>Healthy Food</h2>
+			</a>
+
+			<a id="potato" class= "column" href="junkFood.html" target="_blank">
+					<h2>Junk Food</h2>
+			</a>
+
+			<a id="chick" class="column" href="game.html" target="_blank">
+					<h2>Feed the Chick</h2>
+			</a>
+
+		</div>
+
+		<div id="foot">
+			Copyright &copy; 2018 tenten. All rights reserved.<br>Tel:xxxxx<br>e-mail:xxxx
+		</div>
+
+
+		<style type="text/css">
+
+			body {
+				margin: 0 0 0 0;
+			}
+
+			#bamboo {
+				height: 100vh;
+				width: 100%;
+			}
+
+			#bamboo_bg {
+				z-index: -1;
+				position: absolute;
+				background: url(../image/bamboo.jpg) no-repeat;
+				background-size: cover;
+				opacity: 0.7;
+				width: 100%;
+				height: 100%;
+			}
+
+			#banner {
+				background-color: rgba(0, 0, 0, 0.3);
+				text-align: right;
+				padding: 5px;
+				margin: 0;
+			}
+
+			audio {
+				float: right;
+			}
+
+
+
+			#banner a {
+				color: #cccc99;
+				font-size: 20px;
+				padding: 10px;
+				text-decoration: none;
+				line-height: 1.5;
+			}
+
+			#banner a:hover {
+				text-decoration: underline;
+				background-color: rgba(0, 0, 0, 0.3);
+
+			}
+
+			h1 {
+				font-size: 80px;
+				color: #CEFFD4;
+				font-style: italic;
+				text-align: left;
+				text-shadow: 1px 6px 6px #086b34;
+				font-family: "Great Vibes", cursive;
+				margin: 0;
+				margin-left: 55%;
+				padding-top: 50px;
+			}
+
+
+			#content {
+					text-align: left;
+					width: 45%;
+					margin-left: 55%;
+					margin-top: 15px;
+			}
+
+			p {
+				font-size: 25px;
+				font-family: "Libre Baskerville", serif;
+				font-style: italic;
+				margin: 10px;
+				text-align: left;
+				text-shadow: 0 6px 6px #3a3c3f;
+				color: #fff;
+				line-height: 38px;
+			}
+
+			.row {
+				margin: 30px 0;
+				height: 300px;
+			}
+
+			.column {
+				float: left;
+				width: 30%;
+				margin: 10px;
+				padding: 0 10px;
+				height: 300px;
+				display: block;
+				text-decoration: none;
+				font-family: "Libre Baskerville", serif;
+				color: black;
+			}
+
+			.column:hover {
+				opacity: 0.85;
+				box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+				transform: scale(1.05);
+			}
+
+			#apple {
+				background: url(../image/apple.jpg) no-repeat;
+				background-size: cover;
+				border: none;
+				border-radius: 15px;
+				transition: transform .2s;
+			}
+
+
+			#potato {
+				background: url(../image/potato.jpg) no-repeat;
+				background-size: cover;
+				border: none;
+				border-radius: 15px;
+				transition: transform .2s;
+			}
+
+			#chick {
+				background: url(../image/chick.jpg) no-repeat;
+				background-size: cover;
+				border: none;
+				border-radius: 15px;
+				transition: transform .2s;
+			}
+
+
+			#foot {
+				background-color: rgba(0, 0, 0, 0.3);
+				width: 100%;
+				height: 45px;
+				text-align: center;
+				color: black;
+				padding: 10px;
+				font-size: 11px;
+				font-weight: 400;
+				font-family: "Arial",sans-serif;
+   				line-height: 1.36364;
+			}
+		</style>
+	</body>
+</html>
