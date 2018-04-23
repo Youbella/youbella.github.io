@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Simple Web Page</title>
+	</head>
+
+	<body>
+		<div id="banner_container">
+			<div id="banner">
+				<div id="link_container">
+					<a href="page2.html">Page2</a>
+				</div>
+				<h1>My Page</h1>
+			</div>
+		</div>
+
+
+		<div id="content">
+			<p class="emph">Hi.</p>
+
+			<p>This is my <span class = "emph">first</span> web page!</p>
+		</div>
+
+
+		<style type="text/css">
+
+			body {
+
+					margin: 0 0 0 0;
+			}
+
+			h1 {
+				font-size: 90px;
+				color: white;
+				text-align: center;
+				font-family: Papyrus;
+			}
+
+			p {
+				font-size: 20px;
+				font-family: Tahoma;
+			}
+
+			.emph {
+				font-weight: bold;
+				font-style: italic;
+			}
+
+			img {
+				width: 500px;
+
+			}
+
+			#banner {
+				background: url(banner.png) no-repeat;
+				height: 400px;
+			}
+
+			#banner_container {
+				background: url(sky.png);
+			}
+
+			#link_container {
+				background-color: rgba(0, 0, 0, 0.1);
+				text-align: right;
+				padding: 5px 5px 5px 5px; 
+			}
+
+			a {
+				font-size: 20px;
+				text-decoration: none;
+				color: white;
+			}
+
+			a:hover {
+				text-decoration: underline;
+				background-color: rgba(0, 0, 0, 0.1);
+			}
+
+			#content {
+					text-align: center;
+					width: 50%;
+					margin-left: 25%;
+			}
+
+		</style>
+	</body>
+</html>
