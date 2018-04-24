@@ -13,7 +13,7 @@
 				<a href="https://www.google.com">Contact</a>
 			</div>
 
-			<audio controls loop>
+			<audio autoplay loop>
 				<source src="../mp3/ukulele.mp3" type="audio/mpeg">
 			</audio>
 
@@ -85,11 +85,6 @@
 				margin: 0;
 			}
 
-			audio {
-				float: right;
-			}
-
-
 
 			#banner a {
 				color: #cccc99;
@@ -106,15 +101,19 @@
 			}
 
 			h1 {
+
+				font-family: "Great Vibes", cursive;
 				font-size: 80px;
-				color: #CEFFD4;
 				font-style: italic;
+
+				color: #CEFFD4;
+				
 				text-align: left;
 				text-shadow: 1px 6px 6px #086b34;
-				font-family: "Great Vibes", cursive;
-				margin: 0;
-				margin-left: 55%;
-				padding-top: 50px;
+
+				position: absolute;
+				top: 30px;
+				right: 180px;
 			}
 
 
@@ -122,7 +121,7 @@
 					text-align: left;
 					width: 45%;
 					margin-left: 55%;
-					margin-top: 15px;
+					margin-top: 180px;
 			}
 
 			p {

@@ -1,88 +1,175 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>A Simple Web Page</title>
-	</head>
+<head>
+	<title>JS</title>
+</head>
+<body>
 
-	<body>
-		<div id="banner_container">
-			<div id="banner">
-				<div id="link_container">
-					<a href="page2.html">Page2</a>
-				</div>
-				<h1>My Page</h1>
-			</div>
-		</div>
+	<div>
+		
+		Name: <input id="name">
+
+	</div>
+
+	<button onclick="show_message()">Show Message</button>
+
+	<div id="message"></div>
+
+	<hr>
+
+	<div>
+		
+		<input id="number" class="number"> +
+		<input id="other_number" class="number">
+		=<span id="sum"></span>
+
+	</div>
+
+	<button onclick="sum()">Add Numbers</button>
+
+	<hr>
+
+	<div>
+		
+		Color: <input id="color">
+
+	</div>
+
+	<button onclick="change_color()">Change Color</button>
+
+	<hr>
+
+	<button onclick="play_rim_shot()">Play Rim Shot</button>
+
+	<hr>
+
+	<button onclick="play_song()">Play Song</button><button onclick="pause_song()">Pause Song</button>
+
+	<hr>
+
+	<button onclick="hide_hero()">hide hero</button>
+	<button onclick="show_hero()">show hero</button>
+	<button onclick="teleport_hero()">Teleport Hero</button>
+
+	<div id="hero_container">
+		<img src="hero.png" id="hero">	
+		<img src="wall.png" id="wall">
+	</div>
+
+	
+
+	<style type="text/css">
+
+		body, button, input, span {
+
+			font-size: 24px;
+		}
+
+		input {
+
+			width: 150px;
+		}
+
+		body {
+
+			padding: 40px;
+		}
+
+		.number {
+
+			width: 	40px;
+		}
+
+		#hero_container {
+
+			height: 800px;
+		}
+
+		#hero {
+
+			position: absolute;
+			top: 720px;
+		}
+
+		#wall {
+
+			position: absolute;
+			left: 300px;
+
+			height: 500px;
+		}
+		
+	</style>
+
+	<script type="text/javascript">
+
+		function show_message() {
+
+			var message = "hello";
+
+			var name = document.getElementById("name").value;
+
+			message = message + " " +name + "!";
+
+			document.getElementById("message").innerHTML = message;
+		}
+
+		function sum() {
+
+			var number = document.getElementById("number").value;
+
+			var other_number = document.getElementById("other_number").value;
+
+			var sum = parseFloat(number) + parseFloat(other_number);
+
+			document.getElementById("sum").innerHTML = sum;
+		}
+
+		function change_color() {
+
+			var color = document.getElementById("color").value;
+
+			document.body.style.backgroundColor = color;
+		}
+
+		var rim_shot = new Audio("146331__theundecided__rim-shot.wav");
+
+		var play_rim_shot = function() {
+			rim_shot.play();
+
+		}
+
+		var song = new Audio("BoxCat_Games_-_10_-_Epic_Song (1).mp3");
+
+		var play_song = function() {
+			song.play();
+
+		}
+
+		var pause_song = function() {
+			song.pause();
+
+		}
+
+		var hero = document.getElementById("hero");
+
+		var hide_hero = function() {
+
+			hero.style.display = "none";
+		}
+
+		var show_hero = function() {
+
+			hero.style.display = "";
+		}
+
+		var teleport_hero = function() {
+
+			hero.style.left = "400px";
+		}
 
 
-		<div id="content">
-			<p class="emph">Hi.</p>
+	</script>
 
-			<p>This is my <span class = "emph">first</span> web page!</p>
-		</div>
-
-
-		<style type="text/css">
-
-			body {
-
-					margin: 0 0 0 0;
-			}
-
-			h1 {
-				font-size: 90px;
-				color: white;
-				text-align: center;
-				font-family: Papyrus;
-			}
-
-			p {
-				font-size: 20px;
-				font-family: Tahoma;
-			}
-
-			.emph {
-				font-weight: bold;
-				font-style: italic;
-			}
-
-			img {
-				width: 500px;
-
-			}
-
-			#banner {
-				background: url(banner.png) no-repeat;
-				height: 400px;
-			}
-
-			#banner_container {
-				background: url(sky.png);
-			}
-
-			#link_container {
-				background-color: rgba(0, 0, 0, 0.1);
-				text-align: right;
-				padding: 5px 5px 5px 5px; 
-			}
-
-			a {
-				font-size: 20px;
-				text-decoration: none;
-				color: white;
-			}
-
-			a:hover {
-				text-decoration: underline;
-				background-color: rgba(0, 0, 0, 0.1);
-			}
-
-			#content {
-					text-align: center;
-					width: 50%;
-					margin-left: 25%;
-			}
-
-		</style>
-	</body>
+</body>
 </html>
