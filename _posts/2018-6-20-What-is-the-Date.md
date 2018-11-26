@@ -220,4 +220,3 @@ So, Let's take a few minutes to learn the date in Japanese.
 _Thanks for reading~_  
 </div>
 
-<style media="screen">.content { background-color: #222; width：100%； } #h1 { color: #fff; font-family: 'Droid Serif'; border-bottom: 3px solid #E65634; font-size: 42px; font-weight: 400; line-height: 60px; margin: 0 auto 45px; max-width: 600px; padding: 45px 0; text-align: center; } p { color: #fff; font-family: 'Ubuntu'; font-size: 20px; font-weight: 300; line-height: 36px; margin: 0 auto 36px; max-width: 400px; } table { color: #fff; font-family: 'Ubuntu'; font-size: 22px; border-collapse: collapse; width: 96%; margin-left: 2%; margin-right: 2%; margin-bottom: 30px; } td, th { border: 1px solid #E65634; text-align: center; padding: 8px; } tr:nth-child(odd) { background-color: #E65634; } #title { font-size: 23px; font-family: 'Droid Serif'; }</style>
