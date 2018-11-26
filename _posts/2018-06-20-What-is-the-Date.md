@@ -1,5 +1,4 @@
 ---
-title: "What's the Date?"
 subtitle: "in Japanese and English"
 author: "tenten"
 avatar: "img/authors/bear.jpeg"

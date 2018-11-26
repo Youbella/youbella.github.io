@@ -1,5 +1,4 @@
 ---
-title: "Why Japanese Company want to hire foreigners?"
 author: "tenten"
 avatar: "img/authors/bear.jpeg"
 image: "img/IMD.png"
