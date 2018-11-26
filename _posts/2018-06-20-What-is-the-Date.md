@@ -215,8 +215,6 @@ So, Let's take a few minutes to learn the date in Japanese.
 
 </table>
 
-![date](/img/calendar.png)
-
 _Thanks for reading~_  
 </div>
 
