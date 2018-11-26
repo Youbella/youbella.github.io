@@ -1,86 +1,22 @@
 ---
-title: "Don't let users change you!"
-subtitle: "keep kind"
+title: "Good Habits"
 author: "tenten"
 avatar: "img/authors/bear.jpeg"
-image: "img/question-mark.jpg"
+image: "img/time-for-change.jpg"
 typora-root-url: ..
 ---
 
 
 
-越长大，越不想与人交往。
-
-![img1](img/question-mark.jpg)
-
-
-
-为什么大家都在抱怨自己的生活？
-
-为什么大家都好面子，慕虚荣？
-
-为什么大家都想占别人便宜，不劳而获？
-
-为什么大家都不愿努力做好自己本分的工作，给身边人一个微笑呢？
-
-
-
-为什么要对我倾诉你的烦恼？我不愿听！
-
-为什么要对我吹嘘你的伟大？我不在乎！
-
-为什么要把你的手伸向我辛勤种下的果实？你不配！
-
-为什么你遇到的问题，可以理所当然的来烦我？我也很忙！
-
-
-
-渐渐地，我不愿自己牵涉其中，不想与他们共处于一片天地。于是，我变成了一个孤家寡人。“世人皆醉我独醒，举世皆浊我独清。”
-
-难道非要像屈原一样抱石沉江，才能找到适合自己的清清水乡吗？
-
-
-
-不！我明明没有做错任何事，为什么我要自己惩罚自己？让自己变得愤世嫉俗，孤立无援。
-
-
-
-我要走出去，去面对这混沌的世界，不再逃避，不再畏缩。
-
-我要走出去，去找到跟我一样还想保留一颗善良的心的人们，与他们在一起堂堂正正的活在这世上。
-
-我要走出去，去拯救那些心灵枯萎的人，用我的善良与实力，去灌溉他们贫瘠的心土。
-
-
-
-雨果说：“善良是历史中稀有的珍珠，善良的人几乎优于伟大的人”
-
-三字经也说：“人之初，性本善”
-
-
-
-善良，是我最宝贵的财富，它让我的生活温暖而快乐。
-
-那些丢失善良的人，作恶的人，他们的心变得冷而硬。即便有无数的财宝，也只是堆砌出一个冰冷的坟墓，这本身也是对他们的一种惩罚。
-
-
-
-不过，与人为善，乐于助人，并不代表我软糯，好说话，没原则。这也是我失败了好多次才想明白的。
-
-
-
-首先，面对别人的求助，不回应并不代表你就不热心，不乐于助人了。只是事有轻重缓急，如果别人的事，占用我太多时间或者要我违背自己的原则，那就立刻果决的说“不”。不然的话，自己就会徒添烦恼，两败俱伤。
-
-
-
-其次，面对别人的使坏，虚伪，欺诈时，愤怒，委屈都是正常的情绪。发泄之后，就要赶紧想办法解决问题。如果能把自己丢失的东西找回来很好，不行的话就算了，就当是花钱买教训，远离他们吧。
-
-
-
-最后，请守住自己的善良，可能的话，播种一份善良，让身边的人也能感受到生活的美好与温暖！
+- get up at 6 o'clock and sleep at 22 o'clock
+- Take hot bath in the morning and warm bath at night.
+- Make choice simpler, decrease the variety of clothes. 
+- Eat less and choose healthy food.
+- Brush teeth 5 minutes after eating any food.
+- Do some sports you like regularly.
+- Read ordinary books to avoid problems caused by the screen light.
 
 
 
 
 
-![img1](img/smiley.jpg)
