@@ -1,6 +1,5 @@
 ---
-title: "IT小知识"
-subtitle: "考试必过"
+title: "IT Passport"
 author: "tenten"
 avatar: "img/authors/bear.jpeg"
 image: "img/ITPassport.jpg"

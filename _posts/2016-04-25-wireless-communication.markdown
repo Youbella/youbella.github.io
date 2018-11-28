@@ -1,9 +1,8 @@
 ---
-title:  "翻訳"
-subtitle: "wireless communication"
+title:  "wireless communication"
 author: "tenten"
 avatar: "img/authors/bear.jpeg"
-image: "img/b.jpg"
+image: "img/wireless.jpg"
 date:   2016-04-25 17:41:12
 ---
 

@@ -1,9 +1,8 @@
 ---
 title: "Sayings About Food"
-subtitle: "keep kind"
 author: "tenten"
 avatar: "img/authors/bear.jpeg"
-image: "img/question-mark.jpg"
+image: "img/food.jpg"
 typora-root-url: ..
 ---
 

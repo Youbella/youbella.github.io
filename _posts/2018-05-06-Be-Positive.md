@@ -7,12 +7,6 @@ image: "img/positive.jpg"
 typora-root-url: ..
 ---
 
-
-
-#How to Be Positive?
-
-> wikiHow: How to be Positive
-
 Many of our experiences in life are a result of how we interpret and respond to our surroundings. Choosing positive emotions and ways of thinking can bring us a better life. But how?
 
 
